@@ -1,0 +1,23 @@
+{
+  "name": "pre-entrega-3-alfonso",
+  "version": "1.0.0",
+  "description": "mi primera paginna con sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canda13/pre-entrega-3-alfonso.git"
+  },
+  "author": "canda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canda13/pre-entrega-3-alfonso/issues"
+  },
+  "homepage": "https://github.com/canda13/pre-entrega-3-alfonso#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
