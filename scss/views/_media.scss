@@ -7,38 +7,38 @@
     grid-auto-rows: 200px;
     grid-auto-flow: dense;
   
-  .gallery .wide{
-    grid-column: span 2;
-  }
-  
-  .gallery .tall{
-    grid-row: span 2;
-  }
-  
-  .gallery .big{
-    grid-column: span 2;
-    grid-row: span 2;
-  }
-  
-  .gallery > div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  
-  .gallery > div > .casa2{
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-      border-radius: 5px;
-  }
-  
-  .casa2{
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    display: inline-block;
-  
-  }
-}
+    .wide{
+      grid-column: span 2;
+    }
+    
+    .tall{
+      grid-row: span 2;
+    }
+    
+     .big{
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    > div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    
+    > div > .casa2{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    
+    .casa2{
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+      display: inline-block;
+    
+    }
+  }    
