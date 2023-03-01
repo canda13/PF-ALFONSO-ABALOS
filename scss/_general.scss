@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+@font-face{
+  src:url(../fonts/LEMONMILK.ttf);
+  font-family: nos;
+}
+  
+@font-face{
+  src:url(../fonts/VanillaCaramel.ttf);
+  font-family: nosotros2;
+}
+  
+@font-face{
+  src:url(../fonts/ADELIA.ttf);
+  font-family: nosotros3;
+}
+
+@font-face{
+  src: url(../fonts/MANOLETE.ttf);
+  font-family: nosotros;
+}
+
+.gradient{ 
+  
+  padding-top: 13px;
+  background-image: linear-gradient(-20deg, #dac5f9 0%, #cae5f8 100%);
+}
+

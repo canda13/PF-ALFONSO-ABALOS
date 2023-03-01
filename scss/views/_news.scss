@@ -1,0 +1,30 @@
+
+  
+  .contenedor_news{
+    background-color: transparent;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+
+    .parrafo_news{
+        display: inline-block;
+        padding-left: 197px;
+        color: #2A2A2A;
+        font-weight: 53px;
+        font-size: 20px;
+        margin: 0 0 60px 0; 
+        font-family: Abril Fatface;
+        text-align: center;
+        width: 331PX;
+        padding-right:  20px;
+        padding-left:20px ;
+        padding-top:20px ;
+        padding-bottom:20px ;
+        margin: 20px;
+        border-radius: 20px;
+        border-radius: 13px;
+        box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+  }
+  
+ 
