@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* NAV-BAR*/
 header {
   width: 80%;
   display: flex;
@@ -46,6 +48,7 @@ header {
     margin: 6px 0;
     background: #212526; }
 
+/* MEDIA QUERIES NAV-BAR*/
 @media screen and (max-width: 1100px) {
   ul {
     flex-direction: column;
@@ -56,6 +59,7 @@ header {
   .info__img img {
     width: 100%; } }
 
+/* INFORMACIÓN*/
 .info {
   display: flex;
   padding: 8rem;
@@ -90,6 +94,7 @@ header {
   color: #FF5376;
   stroke-width: 5px; }
 
+/* MEDIA QUERIES INFORMACIÓN*/
 @media screen and (max-width: 879px) {
   .info {
     flex-direction: column; } }
@@ -97,6 +102,41 @@ header {
 @media screen and (max-width: 575px) {
   .info {
     padding: 1rem; } }
+
+/* TÍTULO-SUBTÍTULO*/
+.titulo_index {
+  font-family: Abril Fatface;
+  font-size: 86px;
+  line-height: 121px;
+  letter-spacing: 2px;
+  padding-top: 100px;
+  padding-left: 100px; }
+
+.subtitulo_index {
+  color: #2A2A2A;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 26px;
+  padding-bottom: 170px;
+  padding-left: 100px; }
+
+.subtitulo_index a {
+  text-decoration: none; }
+
+@media only screen and (max-width: 1100px) {
+  .titulo_index {
+    font-family: Abril Fatface;
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    padding-top: 100px; }
+  .subtitulo_index {
+    color: #2A2A2A;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 170px;
+    padding-left: 100px; } }
 
 * {
   margin: 0;
