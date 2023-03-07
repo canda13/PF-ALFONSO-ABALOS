@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-
   <!-- LINK/META -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,49 +18,43 @@
   <title>CONTACT - TXT</title>
   <!-- SEO -->
   <meta name="description" content="Contact us ">
- <meta name="keywords" content="txt contacto, pagina de contacto de tomorrow x together fansite, ">
-
+  <meta name="keywords" content="txt contacto, pagina de contacto de tomorrow x together fansite, ">
 </head>
-
 <body class="gradient">
-
     <header>
-        <!-- LOGO -->
+                    <!-- LOGO -->
         <div class="logo">
             <img class="logo-header" src="../media/foto-header.png" alt="">
         </div>
         <input type="checkbox" id="nav_check" hidden>
-
-    <!-- NAV-BAR -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">HOME</a>
-                </li>
-                <li>
-                    <a href="../pages/news.html">NEWS</a>
-                </li>
-                <li>
-                    <a href="../pages/media.html">MEDIA</a>
-                </li>
-                <li>
-                    <a href="../pages/profile.html">PROFILE</a>
-                </li>
-                <li>
-                    <a href="contact-us.html" class="active">CONTACT</a>
-                </li>
-                <li>
-                    <a href="https://weverseshop.io/en/shop/US_USD/artists/3/categories/164">WEVERSE</a>
-                </li>
-            </ul>
-        </nav>
-
+                    <!-- NAV-BAR -->
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">HOME</a>
+            </li>
+            <li>
+                <a href="../pages/news.html">NEWS</a>
+            </li>
+            <li>
+                <a href="../pages/media.html">MEDIA</a>
+            </li>
+            <li>
+                <a href="../pages/profile.html">PROFILE</a>
+            </li>
+            <li>
+                <a href="contact-us.html" class="active">CONTACT</a>
+            </li>
+            <li>
+                <a href="https://weverseshop.io/en/shop/US_USD/artists/3/categories/164">WEVERSE</a>
+            </li>
+        </ul>
+    </nav>
         <label for="nav_check" class="hamburger">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
         </label>
-
     </header>
     
 
@@ -72,12 +65,13 @@
             <div class="left"></div>
             <div class="right">
                 <h2 class="h2-contacto">Contact Us</h2>
-                <form action="/action_page.php"></form>
-                <input type="text" class="field" id="fname" name="fname" placeholder="Tu nombre...">
-                <input type="text" class="field" name="email" placeholder="Tu email">
-                <input type="text" class="field" name="yourname" placeholder="Tu telefono">
-                <textarea placeholder="Mensaje" class="field"></textarea>
-                <input type="submit" value="Submit">
+                <form method="get" enctype="multipart/form-data" action="#">
+                    <input type="text" class="field" id="fname" name="fname" placeholder="Tu nombre...">
+                    <input type="email" class="field" name="email" placeholder="Tu email">
+                    <input type="text" class="field" name="yourname" placeholder="Tu telefono">
+                    <textarea placeholder="Mensaje" class="field"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </div>
