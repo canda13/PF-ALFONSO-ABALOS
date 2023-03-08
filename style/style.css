@@ -136,6 +136,7 @@ header {
 
 /* NEWS*/
 .parrafo_news {
+  overflow: auto;
   display: inline-block;
   font-size: 20px;
   font-family: Abril Fatface;
@@ -146,6 +147,7 @@ header {
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .contenedor_news {
+  overflow: auto;
   margin: 0 100px 50px 100px;
   /*
     background-color: transparent;*/

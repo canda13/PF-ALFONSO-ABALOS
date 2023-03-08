@@ -1,17 +1,19 @@
 /* NEWS*/
     
   .parrafo_news{
+    overflow:auto;
     display: inline-block;
     font-size: 20px;
     font-family: Abril Fatface;
     text-align: center;
     width: 331PX;
-   margin:15px;
+    margin:15px;
     border-radius: 13px;
     box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   .contenedor_news{
+    overflow: auto;
     margin: 0 100px 50px 100px;
     /*
     background-color: transparent;*/
