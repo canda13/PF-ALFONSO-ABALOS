@@ -2,8 +2,7 @@
 
 .container-media{
     .titulo-media{
-      text-align: center;
-    padding-left: 100px;
+    text-align: center;
     font-family: nosotros2;
     font-size: 73px;
     line-height: 121px;
@@ -60,9 +59,9 @@
   @media only screen and (max-width: 600px) {
     .container-media{ 
       .titulo-media{
-      
+      text-align: center;
       font-size: 40px;
-      color: #b54624;
+      color:  #8150c5;
       }
   }
 }

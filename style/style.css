@@ -70,13 +70,13 @@ header {
   /*padding-left: 100px;*/ }
 
 .subtitulo_index {
+  margin-top: 50px;
   text-align: center;
   color: #2A2A2A;
   font-family: 'Inter';
   font-weight: 300;
   font-size: 26px;
-  padding-bottom: 170px;
-  padding-left: 100px; }
+  padding-bottom: 170px; }
   .subtitulo_index a {
     text-decoration: none; }
 
@@ -88,12 +88,12 @@ header {
     line-height: 54px;
     letter-spacing: 1px; }
   .subtitulo_index {
+    text-align: center;
     color: #2A2A2A;
     font-family: 'Inter';
     font-weight: 300;
     font-size: 20px;
-    padding-bottom: 170px;
-    padding-left: 100px; } }
+    padding-bottom: 170px; } }
 
 /* INFORMACIÓN*/
 .info {
@@ -245,7 +245,6 @@ header {
 /* MEDIA*/
 .container-media .titulo-media {
   text-align: center;
-  padding-left: 100px;
   font-family: nosotros2;
   font-size: 73px;
   line-height: 121px;
@@ -287,8 +286,9 @@ header {
 /* MEDIA QUERIES MEDIA*/
 @media only screen and (max-width: 600px) {
   .container-media .titulo-media {
+    text-align: center;
     font-size: 40px;
-    color: #b54624; } }
+    color: #8150c5; } }
 
 /* CONTACTO*/
 .container-contacto {
@@ -335,13 +335,11 @@ header {
   transform: translateX(-50%);
   height: 4px;
   width: 50px;
-  border-radius: 2px;
   background-color: #2ecc71; }
 
 .field {
   width: 100%;
   border: 2px solid rgba(0, 0, 0, 0);
-  outline: none;
   background-color: rgba(230, 230, 230, 0.6);
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
@@ -354,33 +352,34 @@ header {
 textarea {
   min-height: 150px; }
 
-.btn {
-  width: 100%;
-  padding: 0.5rem 1rem;
-  background-color: #2ecc71;
-  color: #fff;
-  font-size: 1.1rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  transition: .3s; }
-
-.btn:hover {
-  background-color: #27ae60; }
-
-.field:focus {
-  border: 2px solid rgba(30, 85, 250, 0.47);
-  background-color: #fff; }
-
+/*         
+  .btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+     outline: none;
+    cursor: pointer;
+    transition: .3s;
+  }
+                      
+  .btn:hover{
+    background-color: #27ae60;
+  }
+                      
+  .field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+  }*/
 input[type=submit] {
   width: 100%;
   background-color: #358292;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer; }
+  border: none; }
 
 /* MEDIA QUERIES CONTACTO*/
 @media screen and (max-width: 880px) {
