@@ -6,18 +6,21 @@
                         }
                         .card-body{
                             text-align: center;
-                            box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5)
+                            box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5);
                         }
                         .card-body h6 {
                         font-size: 14px;
                         text-transform: uppercase;
                         color: deeppink;
+                        
                         }
                         .card-title {
                         text-transform: uppercase;
                         font-weight: bold;
                         font-size: 24px;
+                        
                         }
+                        .col-md-6 {margin-bottom: 100px;}
                         
                         .socials a {
                         width: 40px;
@@ -25,10 +28,12 @@
                         display: inline-block;
                         border-radius: 50%;
                         margin: 0 5px;
+                        
                         }
                         .socials a i {
                         color: #fff;
                         padding: 12px 0;
+                        
                         }    
                         
                         .socials a:nth-child(1) {
@@ -46,10 +51,12 @@
                           display: inline-block;
                           border-radius: 50%;
                           margin: 0 5px;
+                          
                           }
                           .socials a i {
                           color: #fff;
                           padding: 12px 0;
+                          
                           }    
                           
                           .socials a:nth-child(1) {

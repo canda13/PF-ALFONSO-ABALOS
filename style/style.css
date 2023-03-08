@@ -151,7 +151,7 @@ header {
   text-align: center;
   width: 331PX;
   margin: 20px;
-  padding-left: 20px;
+  margin: 15px;
   border-radius: 13px;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
@@ -190,6 +190,9 @@ header {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 24px; }
+
+.wrapper .col-md-6 {
+  margin-bottom: 100px; }
 
 .wrapper .socials a {
   width: 40px;
@@ -352,27 +355,6 @@ header {
 textarea {
   min-height: 150px; }
 
-/*         
-  .btn{
-    width: 100%;
-    padding: 0.5rem 1rem;
-    background-color: #2ecc71;
-    color: #fff;
-    font-size: 1.1rem;
-    border: none;
-     outline: none;
-    cursor: pointer;
-    transition: .3s;
-  }
-                      
-  .btn:hover{
-    background-color: #27ae60;
-  }
-                      
-  .field:focus{
-    border: 2px solid rgba(30,85,250,0.47);
-    background-color: #fff;
-  }*/
 input[type=submit] {
   width: 100%;
   background-color: #358292;
