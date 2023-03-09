@@ -137,10 +137,10 @@ header {
 /* NEWS*/
 .parrafo_news {
   display: inline-block;
-  font-size: 20px;
+  font-size: 16px;
   font-family: Abril Fatface;
   text-align: center;
-  width: 331PX;
+  width: auto;
   margin: 15px;
   border-radius: 13px;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -352,6 +352,11 @@ input[type=submit] {
 
 /* MEDIA QUERIES CONTACTO*/
 @media screen and (max-width: 880px) {
+  .container-contacto {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .contact-box {
     grid-template-columns: 1fr; }
   .left {
