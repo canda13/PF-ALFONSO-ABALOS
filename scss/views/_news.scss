@@ -22,3 +22,10 @@
   .article_news{
     margin: 15px ;
   }
+
+  @media only screen and (max-width: 600px) {
+    .contenedor_news{ 
+      margin: 10px;
+
+  }
+}
