@@ -1,6 +1,7 @@
 @import "./utilities/variables";
-@import "general";
-@import "header";
+@import "./utilities/mixins";
+@import "./general";
+@import "./header";
 @import "./views/index";
 @import "./views/news";
 @import "./views/profile";

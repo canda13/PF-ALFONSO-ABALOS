@@ -21,44 +21,46 @@
   <!-- LINK/TÍTULO -->
   <title>CONTACT - TXT</title>
 </head>
-<body>
-    
-    <header>
-        <!-- LOGO -->
-        <div class="logo">
-            <img class="logo_header" src="../media/foto-header.png" alt="">
-        </div>
-        <input type="checkbox" id="nav_check" hidden>
-        <!-- NAV-BAR -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">HOME</a>
+<body class="body-100">
+  <header class="d-block">
+      <nav class="navbar navbar-expand-md">
+          <div class="container-fluid">
+              <!-- LOGO -->
+              <div class="logo">
+                  <a class="navbar-brand" href="#"><img class="logo_header" src="../media/foto-header.png" alt=""></a>
+              </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- NAV-BAR -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav d-flex text-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page"  href="../index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./news.html">NEWS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./media.html">MEDIA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./profile.html">PROFILE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./profile.html">PROFILE</a>
                 </li>
                 <li>
-                    <a href="../pages/news.html">NEWS</a>
+                  <a class="nav-link" href="./contact-us.html"><span>CONTACT</span></a>
                 </li>
-                <li>
-                    <a href="../pages/media.html">MEDIA</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://weverseshop.io/en/shop/US_USD/artists/3/categories/164">WEVERSE</a>
                 </li>
-                <li>
-                    <a href="../pages/profile.html">PROFILE</a>
-                </li>
-                <li>
-                    <a href="contact-us.html" class="active">CONTACT</a>
-                </li>
-                <li>
-                    <a href="https://weverseshop.io/en/shop/US_USD/artists/3/categories/164">WEVERSE</a>
-                </li>
-            </ul>
+              </ul>
+            </div>
+          </div>
         </nav>
-        <label for="nav_check" class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </label>
-    </header>
-    
+  </header>
     <!-- FORMULARIO -->
     <main class="container_contact-us">
         <div class="container_contacto">
@@ -68,8 +70,8 @@
                     <h2 class="h2_contacto">Contact Us</h2>
                         <form method="get" enctype="multipart/form-data" action="#">
                             <input type="text" class="field" id="fname" name="fname" placeholder="Tu nombre...">
-                            <input type="email" class="field" name="email" placeholder="Tu email">
-                            <input type="text" class="field" name="yourname" placeholder="Tu telefono">
+                            <input type="email" class="field" id="email" name="email" placeholder="Tu email...">
+                            <input type="tel" class="field" id="phone-number" name="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Tu telefono...">
                             <textarea placeholder="Mensaje" class="field"></textarea>
                             <input type="submit" value="Submit">
                         </form>
@@ -77,18 +79,15 @@
             </div>
         </div>
     </main>
-
     <!-- FOOTER -->
     <footer class="d-flex justify-content-center fixed">
         <p class="footer__p">
             Todos los derechos reservados &copy;
         </p>
     </footer>
-
     <!-- LINK/BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </body>
 </html>

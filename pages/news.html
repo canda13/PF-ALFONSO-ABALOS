@@ -25,80 +25,113 @@
 
 <body class="gradient">
 
-    <header>
-        <!-- LOGO -->
-        <div class="logo">
-            <img class="logo_header" src="../media/foto-header.png" alt="">
-        </div>
-        <input type="checkbox" id="nav_check" hidden>
-
-    <!-- NAV-BAR -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">HOME</a>
-                </li>
-                <li>
-                    <a href="../pages/news.html"class="active">NEWS</a>
-                </li>
-                <li>
-                    <a href="../pages/media.html">MEDIA</a>
-                </li>
-                <li>
-                    <a href="../pages/profile.html">PROFILE</a>
-                </li>
-                <li>
-                    <a href="contact-us.html">CONTACT</a>
-                </li>
-                <li>
-                    <a href="https://weverseshop.io/en/shop/US_USD/artists/3/categories/164">WEVERSE</a>
-                </li>
-            </ul>
-        </nav>
-
-        <label for="nav_check" class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </label>
-
+    <header class="d-block">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                    <!-- LOGO -->
+                <div class="logo">
+                    <a class="navbar-brand" href="#"><img class="logo_header" src="../media/foto-header.png" alt=""></a>
+                </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                    <!-- NAV-BAR -->
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav d-flex text-end">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../pages/index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="news.html"><span>NEWS</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/media.html">MEDIA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/profile.html">PROFILE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contact-us.html">CONTACT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://weverseshop.io/en/shop/US_USD/artists/3/categories/164">WEVERSE</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-
-       <main class="container_media">
+    <main class="container_media">
         <div class="titulo">
-         <!-- TÍTULO -->
-         <h2 class="titulo_media">NOTICIAS</h2>
-         <!-- SUBTÍTULO -->
-         <h2 class="subtitulo_general">Enterate las principales novedades aquí.
-         </h2>
-         </div>
-     </main>
-    <!--NOTICIAS-->    
-        <div class="contenedor_news">
-            <article class="article_news">
-                <p class="parrafo_news">27/01/2023 <br>TXT ha logrado un nuevo récord personal en las ventas de la primera semana, vendiendo más de 1,8 millones de copias de 'The Name Chapter: TEMPTATION' en solo un día</p>
-                <p class="parrafo_news">27/01/2023 <br>TXT enamora a sus fans con su videoclip más tropical y adictivo, 'Sugar Rush Ride'</p>
-                <p class="parrafo_news">13/01/2023 <br>TOMORROW x TOGETHER capturan los encantos juveniles de 'Gucci' para la portada de febrero de 'Esquire'</p>
-                <p class="parrafo_news">11/01/2023 <br>TXT se convierte en el primer grupo en la historia de Melon Top 100 en listar todas las canciones de un mini álbum en el Top 10 simultáneamente</p>
-                <p class="parrafo_news">9/01/2023 <br>TXT anuncia las primeras paradas de su gira mundial “ACT : SWEET MIRAGE”</p>
-                <p class="parrafo_news">7/01/2023<br>TXT caminará por la alfombra roja en los 2022 American Music Awards por primera vez como nominados</p>
-                <p class="parrafo_news">16/11/2022<br>TXT asistirá a los '2022 American Music Awards'</p>
-                <p class="parrafo_news">13/11/2022<BR>'Melon Music Awards' anuncia su lineup</p>
-                <p class="parrafo_news">11/11/2022<br> Music Bank Chile canceló mid-show debido a condiciones climáticas extremas que causaron problemas de seguridad</p>
-                <p class="parrafo_news">5/11/2022<br>Taehyun de TXT da positivo por COVID-19 y TXT actuará como 4 en 'Music Bank en Chile'</p>
-                <p class="parrafo_news">9/10/2022<br>Yeonjun de TXT no puede presentar 'Inkigayo' debido a la tormenta tropical en Filipinas y Jihoon de TREASURE para reemplazarlo</p>
-                <p class="parrafo_news">13/10/2022<br>BTS, BLACKPINK, TWICE, Seventeen y TXT nominados en los '2022 American Music Awards'</p>
-            </article>
+            <!-- TÍTULO -->
+            <h2 class="titulo_pages">NOTICIAS</h2>
+            <!-- SUBTÍTULO -->
+            <h2 class="subtitulo_general">Enterate las principales novedades aquí.
+            </h2>
         </div>
+    </main>
+    <!--NOTICIAS-->
+    <section class="contenedor_news">
+        <article class="article_news d-flex mb-5">
+            <div class="parrafo_news">
+                <p>27/01/2023</p>
+                <p>TXT ha logrado un nuevo récord personal en las ventas de la primera semana, vendiendo más de 1,8 millones de copias de 'The Name Chapter: TEMPTATION' en solo un día</p>
+            </div>
+            <div class="parrafo_news">
+                <p>27/01/2023</p>
+                <p>TXT enamora a sus fans con su videoclip más tropical y adictivo, 'Sugar Rush Ride'</p>
+            </div>
+            <div class="parrafo_news">
+                <p>13/01/2023</p>
+                <p>TOMORROW x TOGETHER capturan los encantos juveniles de 'Gucci' para la portada de febrero de 'Esquire'</p>
+            </div>
+            <div class="parrafo_news">
+                <p>11/01/2023</p>
+                <p>TXT se convierte en el primer grupo en la historia de Melon Top 100 en listar todas las canciones de un mini álbum en el Top 10 simultáneamente</p>
+            </div>
+            <div class="parrafo_news">
+                <p>9/01/2023</p>
+                <p>TXT anuncia las primeras paradas de su gira mundial “ACT : SWEET MIRAGE”</p>
+            </div>
+            <div class="parrafo_news">
+                <p>7/01/2023</p>
+                <p>TXT caminará por la alfombra roja en los 2022 American Music Awards por primera vez como nominados</p>
+            </div>
+            <div class="parrafo_news">
+                <p>16/11/2022</p>
+                <p>TXT asistirá a los '2022 American Music Awards'
+                </p>
+            </div>
+            <div class="parrafo_news">
+                <p>13/11/2022</p>
+                <p>'Melon Music Awards' anuncia su lineup</p>
+            </div>
+            <div class="parrafo_news">
+                <p>11/11/2022</p>
+                <p>Music Bank Chile canceló mid-show debido a condiciones climáticas extremas que causaron problemas de seguridad</p>
+            </div>
+            <div class="parrafo_news">
+                <p>5/11/2022</p>
+                <p>Taehyun de TXT da positivo por COVID-19 y TXT actuará como 4 en 'Music Bank en Chile'</p>
+            </div>
+            <div class="parrafo_news">
+                <p>9/10/2022</p>
+                <p>Yeonjun de TXT no puede presentar 'Inkigayo' debido a la tormenta tropical en Filipinas y Jihoon de TREASURE para reemplazarlo</p>
+            </div>
+            <div class="parrafo_news">
+                <p>13/10/2022</p>
+                <p>BTS, BLACKPINK, TWICE, Seventeen y TXT nominados en los '2022 American Music Awards'</p>
+            </div>
+        </article>
     </section>
+    <!--FOOTER-->
     <footer class="d-flex justify-content-center fixed">
         <p class="footer__p">
             Todos los derechos reservados &copy;
         </p>
     </footer>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        
+    <!--BOOTSTRAP-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
