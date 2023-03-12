@@ -35,7 +35,6 @@ body {
   height: 100%; }
   .body-100 footer {
     width: 100%;
-    position: absolute;
     bottom: 0px; }
 
 .titulo {
@@ -146,10 +145,26 @@ header {
     font-size: 2rem; }
   .info .info__link path {
     color: #8f87f5;
-    stroke-width: 5px; }
+    stroke-width: 5px;
+    /*
+    animation: saltar 2s infinite;
+  animation-name: saltar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+}
+@keyframes saltar{
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translate(100px);
+  
+}
+    }*/ }
 
 /* MEDIA QUERIES INFORMACIÓN*/
-@media screen and (max-width: 879px) {
+@media screen and (max-width: 880px) {
   .info {
     flex-direction: column; } }
 
@@ -180,7 +195,7 @@ header {
       box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 /* MEDIA-NEWS*/
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   .parrafo_news {
     display: inline-block;
     font-size: 16px;
@@ -347,7 +362,25 @@ header {
   background-size: cover; }
 
 .right {
-  padding: 25px 40px; }
+  padding: 25px 40px;
+  /*
+
+  animation: saltar 1s infinite;
+  animation-name: saltar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction:reverse;
+}
+@keyframes saltar{
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translate(100px);
+  }
+  
+}
+        */ }
   .right .h2_contacto {
     position: relative;
     padding: 0 0 10px;

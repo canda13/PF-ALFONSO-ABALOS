@@ -34,13 +34,28 @@
                       
 .right{
   padding: 25px 40px;
-                      
+  
 .h2_contacto{
   position: relative;
   padding: 0 0 10px;
-  margin-bottom: 10px;
+  margin-bottom: 10px;}/*
+
+  animation: saltar 1s infinite;
+  animation-name: saltar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction:reverse;
 }
-                      
+@keyframes saltar{
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translate(100px);
+  }
+  
+}
+        */              
 .h2_contacto:after{
   content: '';
   position: absolute;
@@ -86,7 +101,7 @@ input[type=submit] {
 }
                 
 /* MEDIA QUERIES CONTACTO*/
-@media screen and (max-width: 880px){
+@media screen and (max-width: $laptop){
   .container_contacto{
     position: relative;
     display: flex;

@@ -32,12 +32,15 @@
     .info__img {
         max-width: 400px;
         flex: 1 1 50%;
+    
         @media screen and (min-width:768px) {
             margin-right: 4em;
         }
         img {
             width: 100%;
         }
+        
+    
     }
     
     .info__box {
@@ -73,10 +76,27 @@
     .info__link path {
         color:$violet;
         stroke-width: 5px;
-    }
+
+/*
+    animation: saltar 2s infinite;
+  animation-name: saltar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+}
+@keyframes saltar{
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translate(100px);
+  
+}
+    }*/
+}
 }
 /* MEDIA QUERIES INFORMACIÓN*/
-@media screen and (max-width: 879px) {
+@media screen and (max-width: $laptop) {
     .info {
         flex-direction: column;
     }
