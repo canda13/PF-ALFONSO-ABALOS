@@ -16,6 +16,7 @@
     filter: blur(50px);
     z-index: -1;
   }
+}
 
   .contact_box{
     max-width: 850px;
@@ -30,7 +31,7 @@
       background-size: cover;
     }
   }     
-}         
+
     .right{
       padding: 25px 40px;
 
@@ -38,6 +39,16 @@
         position: relative;
         padding: 0 0 10px;
         margin-bottom: 10px;
+        &:after{
+          content: '';
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+          transform: translateX(-50%);
+          height: 4px;
+          width: 50px;
+          background-color: $green;
+        }
         animation-name: saltar;
         animation-duration: 2s;
         animation-iteration-count: infinite;
@@ -52,16 +63,6 @@
           }
         }
       } 
-        &:after{
-          content: '';
-          position: absolute;
-          left: 50%;
-          bottom: 0;
-          transform: translateX(-50%);
-          height: 4px;
-          width: 50px;
-          background-color: $green;
-        }
       }
                       
         .field{

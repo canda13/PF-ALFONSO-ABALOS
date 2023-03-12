@@ -9,20 +9,8 @@
   list-style: none; }
 
 @font-face {
-  src: url(../fonts/LEMONMILK.ttf);
-  font-family: lemon; }
-
-@font-face {
   src: url(../fonts/VanillaCaramel.ttf);
   font-family: vanilla; }
-
-@font-face {
-  src: url(../fonts/ADELIA.ttf);
-  font-family: adelia; }
-
-@font-face {
-  src: url(../fonts/MANOLETE.ttf);
-  font-family: manolette; }
 
 html {
   min-height: 100%; }
@@ -37,22 +25,6 @@ body {
     width: 100%;
     bottom: 0px; }
 
-.titulo {
-  margin: 6em 0px 11em; }
-
-.subtitulo_general {
-  text-align: center;
-  font-size: 26px;
-  font-family: "Inter";
-  margin-top: 50px;
-  color: #2A2A2A;
-  font-weight: 300; }
-  @media only screen and (max-width: 1100px) {
-    .subtitulo_general {
-      font-size: 20px; } }
-  .subtitulo_general a {
-    text-decoration: none; }
-
 .titulo_pages {
   text-align: center;
   font-family: vanilla;
@@ -61,9 +33,25 @@ body {
   letter-spacing: 2px;
   color: #8150c5; }
 
+.subtitulo_pages {
+  text-align: center;
+  font-size: 26px;
+  font-family: "Inter";
+  margin-top: 50px;
+  color: #2A2A2A;
+  font-weight: 300; }
+  @media only screen and (max-width: 1100px) {
+    .subtitulo_pages {
+      font-size: 20px; } }
+  .subtitulo_pages a {
+    text-decoration: none; }
+
 /* NAV-BAR*/
 header {
   padding: 0em 1em; }
+  @media screen and (max-width: 1100px) {
+    header {
+      flex-direction: column; } }
   @media screen and (min-width: 768px) {
     header {
       padding: 0em 3em; } }
@@ -95,24 +83,19 @@ header {
     border-radius: 10px;
     background: #8f87f5; }
 
-/* MEDIA QUERIES NAV-BAR*/
-@media screen and (max-width: 1100px) {
-  header {
-    flex-direction: column; }
-  .info__img img {
-    width: 100%; } }
-
-/* TÍTULO-SUBTÍTULO*/
-.titulo_index {
-  text-align: center;
-  font-size: 86px;
-  font-family: Abril Fatface;
-  letter-spacing: 2px; }
-  @media only screen and (max-width: 1100px) {
-    .titulo_index {
-      font-size: 42px;
-      line-height: 54px;
-      letter-spacing: 1px; } }
+/* TÍTULO */
+.titulo {
+  margin: 6em 0px 11em; }
+  .titulo .titulo_index {
+    text-align: center;
+    font-size: 86px;
+    font-family: Abril Fatface;
+    letter-spacing: 2px; }
+    @media only screen and (max-width: 1100px) {
+      .titulo .titulo_index {
+        font-size: 42px;
+        line-height: 54px;
+        letter-spacing: 1px; } }
 
 /* INFORMACIÓN*/
 .info {
@@ -245,14 +228,6 @@ header {
     margin-bottom: 30px; } }
 
 /* MEDIA*/
-.container_media .titulo_pages {
-  text-align: center;
-  font-family: vanilla;
-  font-size: 73px;
-  line-height: 121px;
-  letter-spacing: 2px;
-  color: #8150c5; }
-
 .gallery {
   display: grid;
   padding: 0em 1em;
@@ -284,16 +259,17 @@ header {
     background-size: cover;
     filter: blur(50px);
     z-index: -1; }
-  .container_contacto .contact_box {
-    max-width: 850px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19); }
-    .container_contacto .contact_box .left {
-      background: url("../media/foto-contacto.jpg") no-repeat center;
-      background-size: cover; }
+
+.contact_box {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19); }
+  .contact_box .left {
+    background: url("../media/foto-contacto.jpg") no-repeat center;
+    background-size: cover; }
 
 .right {
   padding: 25px 40px; }
@@ -305,21 +281,21 @@ header {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: normal; }
+    .right .h2_contacto:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 4px;
+      width: 50px;
+      background-color: #2ecc71; }
 
 @keyframes saltar {
   from {
     transform: translateY(0); }
   to {
     transform: translate(100px); } }
-  .right:after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    background-color: #2ecc71; }
 
 .field {
   width: 100%;

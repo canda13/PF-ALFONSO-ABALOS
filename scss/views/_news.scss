@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   flex-wrap:wrap;
+
   .article_news{
     margin: 15px ;
     display: flex;
@@ -19,6 +20,7 @@
       }  
   }
 }
+
 @media only screen and (min-width: 600px) {
   .parrafo_news{
     margin: 15px;
