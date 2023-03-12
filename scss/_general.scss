@@ -42,3 +42,23 @@ body {
 .titulo {
   margin: 6em 0px 11em;
 }
+.subtitulo_general{
+  @include titulo (center, 26px, 'Inter');
+  margin-top:50px;
+  color:$grey;
+  font-weight: 300;
+  @media only screen and (max-width: $desktop) {
+      font-size: 20px;
+  }
+  a{
+      text-decoration: none;
+  }
+}
+.titulo_pages{
+  text-align: center;
+  font-family: vanilla;
+  font-size: 73px;
+  line-height: 121px;
+  letter-spacing: 2px;
+  color: $color;
+}

@@ -3,28 +3,22 @@
     .card-img-top {
         box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     }
-
     .card-body{
         text-align: center;
         box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5);
     }
-
     .card-body h6 {
-        font-size: 14px;
         text-transform: uppercase;
+        font-size: 14px;
         color: deeppink;
     }
-
     .card-title {
-        text-transform: uppercase;
         font-weight: bold;
         font-size: 24px;
     }
-
     .col-md-6 {
          margin-bottom: 100px;
     }              
-
     .socials a {
         width: 40px;
         height: 40px;
@@ -32,61 +26,22 @@
         border-radius: 50%;
         margin: 0 5px;
     }
-
     .socials a i {
         color:$white;
         padding: 12px 0;
     }    
-
     .socials a:nth-child(1) {
         background: $blueblue;
     }
-
     .socials a:nth-child(2) {
-    background: $red;
+        background: $red;
     }
-
     .socials a:nth-child(3) {
         background:$bluelight;
     }
-
-    .socials a:nth-child(4) {
-        background:$pink;
-    }
-
-    .socials a {
-        width: 40px;
-        height: 40px;
-        display: inline-block;
-        border-radius: 50%;
-        margin: 0 5px;
-    }
-
-    .socials a i {
-        color:$white;
-        padding: 12px 0;
-    }    
-
-    .socials a:nth-child(1) {
-        background: $blueblue;
-    }
-
-    .socials a:nth-child(2) {
-        background:$redred;
-    }
-
-    .socials a:nth-child(3) {
-        background:$bluelight;
-    }
-
-    .socials a:nth-child(4) {
-        background:$pink;
-    }
-}
-
-/* MEDIA QUERIES PROFILE*/
-@media (max-width: 800px){
     .mx-30{
+        @media (max-width: 800px){
         margin-bottom: 30px;
+        }
     }
 }
