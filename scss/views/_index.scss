@@ -77,24 +77,21 @@
         color:$violet;
         stroke-width: 5px;
 
-/*
-    animation: saltar 2s infinite;
-  animation-name: saltar;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction:normal;
-}
-@keyframes saltar{
-  from{
+    animation-name: saltar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    }
+    @keyframes saltar{
+        from{
     transform: translateY(0);
-  }
-  to{
+            }
+        to{
     transform: translate(100px);
-  
-}
-    }*/
-}
-}
+            }
+    }
+}   
+
 /* MEDIA QUERIES INFORMACIÓN*/
 @media screen and (max-width: $laptop) {
     .info {

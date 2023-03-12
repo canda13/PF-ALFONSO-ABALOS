@@ -146,22 +146,16 @@ header {
   .info .info__link path {
     color: #8f87f5;
     stroke-width: 5px;
-    /*
-    animation: saltar 2s infinite;
-  animation-name: saltar;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction:normal;
-}
-@keyframes saltar{
-  from{
-    transform: translateY(0);
-  }
-  to{
-    transform: translate(100px);
-  
-}
-    }*/ }
+    animation-name: saltar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; }
+
+@keyframes saltar {
+  from {
+    transform: translateY(0); }
+  to {
+    transform: translate(100px); } }
 
 /* MEDIA QUERIES INFORMACIÓN*/
 @media screen and (max-width: 880px) {
@@ -362,60 +356,58 @@ header {
   background-size: cover; }
 
 .right {
-  padding: 25px 40px;
-  /*
+  padding: 25px 40px; }
 
-  animation: saltar 1s infinite;
+.h2_contacto {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
   animation-name: saltar;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-direction:reverse;
-}
-@keyframes saltar{
-  from{
-    transform: translateY(0);
-  }
-  to{
-    transform: translate(100px);
-  }
-  
-}
-        */ }
-  .right .h2_contacto {
-    position: relative;
-    padding: 0 0 10px;
-    margin-bottom: 10px; }
-  .right .h2_contacto:after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    background-color: #2ecc71; }
-  .right .field {
-    width: 100%;
-    border: 2px solid rgba(0, 0, 0, 0);
-    background-color: rgba(230, 230, 230, 0.6);
-    padding: 0.5rem 1rem;
-    font-size: 1.1rem;
-    margin-bottom: 22px;
-    transition: .3s; }
-  .right .field:hover {
-    background-color: rgba(0, 0, 0, 0.1); }
-  .right textarea {
-    min-height: 150px; }
-  .right input[type=submit] {
-    width: 100%;
-    background-color: #358292;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    transition-duration: .5s; }
-    .right input[type=submit]:hover {
-      background-color: blue; }
+  animation-direction: normal; }
+
+@keyframes saltar {
+  from {
+    transform: translateY(0); }
+  to {
+    transform: translate(100px); } }
+
+.h2_contacto:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  background-color: #2ecc71; }
+
+.field {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: .3s; }
+
+.field:hover {
+  background-color: rgba(0, 0, 0, 0.1); }
+
+textarea {
+  min-height: 150px; }
+
+input[type=submit] {
+  width: 100%;
+  background-color: #358292;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  transition-duration: .5s; }
+  input[type=submit]:hover {
+    background-color: blue; }
 
 /* MEDIA QUERIES CONTACTO*/
 @media screen and (max-width: 880px) {
