@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     justify-content: center;
       .parrafo_news{
+        margin-top: 1em ;
         display: inline-block;
         font-size: 20px;
         font-family:$font;
@@ -17,19 +18,17 @@
         padding: .5em;
         border-radius: 13px;
         box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        @media only screen and (min-width: 600px) {
+        padding: 1.5em;
+        margin: 1em;
+        display: inline-block;
+        font-size: 16px;
+        font-family: $font;
+        text-align: center;
+        width: 350px;
+        border-radius: 13px;
+        box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
       }  
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .parrafo_news{
-    margin: 15px;
-    display: inline-block;
-    font-size: 16px;
-    font-family: $font;
-    text-align: center;
-    width: 350px;
-    border-radius: 13px;
-    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
