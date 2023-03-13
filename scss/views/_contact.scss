@@ -5,7 +5,13 @@
   justify-content: center;
   align-items: center;
   padding-top: 30px;
-}
+  @media screen and (max-width: $laptop){
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .contact_box{
     max-width: 850px;
     display: grid;
@@ -13,10 +19,15 @@
     text-align: center;
     background-color: $white;
     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
-  }
+    @media screen and (max-width: $laptop){
+      grid-template-columns: 1fr;
+    }
     .left{
       background: url("../media/foto-contacto.jpg") no-repeat center;
       background-size: cover;
+      @media screen and (max-width: $laptop){
+        height: 200px;
+      }
     }
      
     .right{
@@ -50,21 +61,20 @@
         animation-iteration-count: infinite;
         animation-direction:normal;
       }
-    }
 
-        .field{
-          width: 100%;
-          border: 2px solid rgba(0, 0, 0, 0);
-          background-color: rgba(230, 230, 230, 0.6);
-          padding: 0.5rem 1rem;
-          font-size: 1.1rem;
-          margin-bottom: 22px;
-          transition: .3s;
+      .field{
+        width: 100%;
+        border: 2px solid rgba(0, 0, 0, 0);
+        background-color: rgba(230, 230, 230, 0.6);
+        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+        margin-bottom: 22px;
+        transition: .3s;
                       
-          &:hover{
-            background-color: rgba(0, 0, 0, 0.1);
-          }
-        }       
+        &:hover{
+          background-color: rgba(0, 0, 0, 0.1);
+        }
+      }       
         textarea{
           min-height: 150px;
         }
@@ -81,11 +91,13 @@
           background-color: blue;
         }
         }
+      }
+  }
+}
+
     
 
-
-                
-/* MEDIA QUERIES CONTACTO*/
+/*
 @media screen and (max-width: $laptop){
   .container_contacto{
     position: relative;
@@ -100,3 +112,4 @@
     height: 200px;
   }
 }
+*/
